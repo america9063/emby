@@ -1,0 +1,7 @@
+sudo apt-get update
+sudo wget https://github.com/MediaBrowser/Emby.Releases/releases/download/4.8.4.0/emby-server-deb_4.8.4.0_amd64.deb && sudo dpkg -i emby-server-deb_4.8.4.0_amd64.deb
+sudo apt-get install emby-server
+sudo apt-get update
+sudo systemctl start emby-server
+sudo systemctl stop emby-server
+sudo systemctl enable emby-server
